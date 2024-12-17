@@ -14,7 +14,7 @@ public class RightDoubleDragMouseKey{
   @Test
   public void rightclick() throws InterruptedException {
 	  driver.get("https://selenium.com/lander");
-	  Thread.sleep(4000);
+	  Thread.sleep(5000);
 	  
 	  Actions act = new Actions(driver);
 	  act.contextClick(driver.findElement(By.xpath("//*[@id=\"getButtonBoxLink\"]"))).build().perform();
